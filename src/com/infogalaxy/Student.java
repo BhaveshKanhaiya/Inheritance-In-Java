@@ -13,13 +13,3 @@ public class Student {
         name = sc.next();
     }
 }
-class Internal extends Student {
-    int m1;
-    int m2;
-    void setMarks() {
-        System.out.println("Enter The M1 Marks :");
-        m1 = sc.nextInt();
-        System.out.println("Enter The M2 Marks :");
-        m2 = sc.nextInt();
-    }
-}
